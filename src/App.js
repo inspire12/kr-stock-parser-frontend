@@ -25,7 +25,7 @@ const Row = ({stock_id, stock_name, market_capitalization,per, dividend_rate, ro
 */
 class Table extends React.Component {
   componentDidMount(){
-    fetch ("http://localhost:5000/rows", {
+    fetch ("http://localhost:5010/rows", {
       mode: 'cors',
       headers: {
         'Access-Control-Allow-Origin':'*'
